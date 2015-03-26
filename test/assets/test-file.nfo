@@ -1,0 +1,75 @@
++ EBML head
+|+ EBML version: 1
+|+ EBML read version: 1
+|+ EBML maximum ID length: 4
+|+ EBML maximum size length: 8
+|+ Doc type: matroska
+|+ Doc type version: 2
+|+ Doc type read version: 2
++ Segment, size 3140727
+|+ Seek head (subentries will be skipped)
+|+ EbmlVoid (size: 4030)
+|+ Segment information
+| + Timecode scale: 1000000
+| + Muxing application: libebml v1.0.0 + libmatroska v1.0.0
+| + Writing application: mkvmerge v4.1.1 ('Bouncin' Back') built on Jul  3 2010 22:54:08
+| + Duration: 35.966s (00:00:35.966)
+| + Date: Thu Feb 16 09:46:22 2012 UTC
+| + Title: [4L] Dracu-Riot! Countdown - 69 days until release date
+| + Segment UID: 0xbe 0xe5 0x7d 0xde 0xf6 0xfb 0xaf 0x00 0x95 0xb8 0x78 0xbb 0x36 0xd0 0x9b 0xbb
+|+ Segment tracks
+| + A track
+|  + Track number: 1 (track ID for mkvmerge & mkvextract: 0)
+|  + Track UID: 3337347261
+|  + Track type: video
+|  + Lacing flag: 0
+|  + MinCache: 1
+|  + Codec ID: V_MPEG4/ISO/AVC
+|  + CodecPrivate, length 42 (h.264 profile: Main @L4.1)
+|  + Default duration: 33.333ms (30.000 frames/fields per second for a video track)
+|  + Language: jpn
+|  + Name: 8-bit h264
+|  + Video track
+|   + Pixel width: 640
+|   + Pixel height: 360
+|   + Display width: 640
+|   + Display height: 360
+| + A track
+|  + Track number: 2 (track ID for mkvmerge & mkvextract: 1)
+|  + Track UID: 994250912
+|  + Track type: audio
+|  + Codec ID: A_AAC
+|  + CodecPrivate, length 5
+|  + Default duration: 23.220ms (43.066 frames/fields per second for a video track)
+|  + Language: jpn
+|  + Name: AAC 2.0
+|  + Audio track
+|   + Sampling frequency: 44100
+|   + Channels: 2
+|   + Output sampling frequency: 88200
+| + A track
+|  + Track number: 3 (track ID for mkvmerge & mkvextract: 2)
+|  + Track UID: 1995521691
+|  + Track type: subtitles
+|  + Lacing flag: 0
+|  + Codec ID: S_TEXT/ASS
+|  + CodecPrivate, length 881
+|  + Name: Styled ASS
+|+ EbmlVoid (size: 1120)
+|+ Attachments
+| + Attached
+|  + File name: A-OTF-TypelaboNStdH-CP.otf
+|  + Mime type: application/x-truetype-font
+|  + File data, size: 236704
+|  + File UID: 873228683
+| + Attached
+|  + File name: tahoma.ttf
+|  + Mime type: application/x-truetype-font
+|  + File data, size: 383804
+|  + File UID: 689206670
+| + Attached
+|  + File name: AGENCYR_1.TTF
+|  + Mime type: application/x-truetype-font
+|  + File data, size: 58920
+|  + File UID: 1218048954
+|+ Cluster
