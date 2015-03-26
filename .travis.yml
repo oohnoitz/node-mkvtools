@@ -1,3 +1,10 @@
 language: node_js
 node_js:
   - "iojs"
+
+before_script:
+  - wget -q -O - https://www.bunkus.org/gpg-pub-moritzbunkus.txt | sudo apt-key add -
+  - echo "deb http://www.bunkus.org/ubuntu/precise/ ./" | sudo tee -a /etc/apt/sources.list
+  - echo "deb-src http://www.bunkus.org/ubuntu/precise/ ./" | sudo tee -a /etc/apt/sources.list
+  - sudo apt-get update -qq
+  - sudo apt-get install mkvtoolnix mkvtoolnix-gui
