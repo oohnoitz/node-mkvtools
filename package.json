@@ -10,7 +10,7 @@
     "which": "^1.0.9"
   },
   "devDependencies": {
-    "hash-file": "^1.0.0",
+    "hash-files": "^1.0.0",
     "mocha": "^2.2.1",
     "expect.js": "^0.3.1"
   },
